@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyas magnolia</title>
+    <link rel="shorcut icon" href="/img/magnolia logo.jpg">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/img/magnolia logo.jpg" alt="magnolia">
+        <ul class="menu">
+            <li><a class="enlace" href="/index.html">Inicio</a> </li>
+            <li><a class="enlace" href="/pages/quienes_somos.html">Quienes Somos</a> </li>
+            <li><a class="enlace" href="/pages/productos.html">Productos</a></li>
+            <li><a class="enlace" href="/pages/medios_pago.html">Medios de Pago</a></li>
+            <li><a class="enlace" href="/pages/Contacto.html">Contacto</a></li>
+            <li><a class="enlace" href="#"><img class="carrito" src="/img/carrito compra.jpg" alt="carrito"></a></li>
+        </ul>
+    </header>
+
+    <body class="fondo">
+        <div class="casillero">
+            <br>
+            <br>
+            <h3>Puede contactarnos a través del siguiente formulario de contacto, nos pondremos en contacto con usted lo
+                mas pronto posible</h3>
+            <form action="">
+                <fieldset class="formulario">
+                    <h3>Contactenos</h3>
+
+                    <div>
+                        <fieldset>
+                            <label for="nombre">Nombre</label>
+                            <input required type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre"
+                                required>
+                            <label for="email">Email</label>
+                            <input required type="email" name="email" id="email" placeholder="Ingrese email" required>
+                            <label for="text number">Telefono</label>
+                            <input required type="text number" name="text number" id="text number"
+                                placeholder="ingrese su numero telefonico">
+
+                            <fieldset>
+                                <p>Solicito</p>
+                                <select>
+                                    <option value="" selected>Seleccione una opción</option>
+                                    <option value="Cotizacion">Cotizacion</option>
+                                    <option value="Consulta">Consulta</option>
+                                    <option value="Reclamo">Reclamo</option>
+                                    <option value="Envio">Problemas con Envío</option>
+                                </select>
+
+                                <div>
+
+                                    <label for="Mensaje">Escriba su Mensaje</label>
+
+                                    <br>
+                                    <textarea class="textarea" name="Mensaje" id="" cols="30" rows="10"
+                                        placeholder="Escriba su mensaje"></textarea>
+                            </fieldset>
+                    </div>
+
+
+                    <fieldset>
+                        <legend>Acepta terminos y condiciones</legend>
+                        <input type="radio" name="Terminos y condiciones" value="si">Si
+                        <input type="radio" name="Terminos y condiciones" value="no">No
+                    </fieldset>
+                    <fieldset><input type="submit">
+                        <input type="reset">
+
+                    </fieldset>
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+    <footer class="pie">
+        <div>
+            <h3>
+                2023® Todos los derechos reservados</h3>
+            <h4>Coderhouse® Project</h4>
+        </div>
+        <div class="icono">
+            <a href="https://www.instagram.com"><img class="icono1" src="/img/instagram.png" alt="igicon"></a>
+            <a href="https://www.whatsapp.com/"><img class="icono1" src="/img/whatsappicon.png" alt="waicon"></a></div>
+    </footer>
+
+</html>
