@@ -14,7 +14,7 @@ header {
 }
 */
 .fondo {
-    background-image: url(./assets/img/magnolia_logo.jpg);
+    background-image: url(/assets/img/magnolia_logo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
